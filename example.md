@@ -6,23 +6,31 @@ coverAuthor: alexanderdavide
 coverAuthorUrl: https://www.alexeble.de
 coverBackgroundUrl: /presentation.jpg
 coverBackgroundSource: unsplash
-coverBackgroundSourceUrl: https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+coverBackgroundSourceUrl: >-
+  https://images.unsplash.com/photo-1594122230689-45899d9e6f69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 fonts:
-  local: Montserrat, Roboto Mono, Roboto Slab # local fonts are used for legal reasons for deployment to https://slidev-theme-academic.alexeble.de and only set up for the example project, remove this line for your project to automatically have fonts imported from Google
+  local: Montserrat, Roboto Mono, Roboto Slab
 themeConfig:
-  paginationX: r
-  paginationY: t
-  paginationPagesDisabled: [1]
+  paginationX: l
+  paginationY: b
+  paginationPagesDisabled:
+    - 1
 title: slidev-theme-academic
-info: |
+info: >
   # slidev-theme-academic
+
 
   Created and maintained by [Alexander Eble](https://www.alexeble.de).
 
+
   - [GitHub](https://github.com/alexanderdavide/slidev-theme-academic)
+
   - [npm](https://www.npmjs.com/package/slidev-theme-academic)
 
-  slidev-theme-academic is licensed under [MIT](https://github.com/alexanderdavide/slidev-theme-academic/blob/master/LICENSE).
+
+  slidev-theme-academic is licensed under
+  [MIT](https://github.com/alexanderdavide/slidev-theme-academic/blob/master/LICENSE).
+
 
   <ul>
     <li>
@@ -34,11 +42,31 @@ info: |
   </ul>
 ---
 
-# cover
+# cover222
 
 ## slidev-theme-academic
 
 <Pagination classNames="text-gray-300" />
+
+---
+
+# Slidev
+
+> Hello `world`
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+![Remote Image](https://sli.dev/favicon.png)
+
+<mdi-account-circle />
+
+<carbon-badge class="text-xl text-red-400 mx-2" />
 
 ---
 layout: table-of-contents
